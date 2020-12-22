@@ -5,6 +5,12 @@ Before proceeding it is needed that you have installed on your machine the follo
 
 1. nodejs => apt-get install nodejs
 2. npm => apt-get install npm
+3. postgres configured:
+ 3.1 username used is postgres or you replace by your own in knexfile.js
+ 3.2 password for postgres must be "123456" or you replace by your own in knexfile.js
+ 3.3 database name must be tasks or you replace by your own in knexfile.js
+
+**PS**: There is a file called install in root folder of this project that install postgres locally but you can also use [docker](https://hub.docker.com/_/postgres) 
 
 ---
 
